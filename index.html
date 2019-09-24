@@ -19,7 +19,7 @@
         </ul>
         <ul>
           <li>
-            <button type="button">Войти</button>
+            <a href="login.html">Войти</a>
           </li>
         <ul>
       </nav>
@@ -84,6 +84,25 @@
         <p>Укажите желаемую дату и время и мы свяжемся <br>
         с вами для подтверждения брони </p>
         <!--Здесь будет форма -->
+        <form class="" action="https://echo.htmlacademy.ru" method="post">
+          <p>
+            <label for="appointment-date">Дата</label>
+          <input id="appointment-date" type="text" name="date" value="" placeholder="08.10.2017">
+        </p>
+        <p>
+          <label for="appointment-time">Время</label>
+          <input id="appointment-time" type="text" name="time" value="" placeholder="10:00">
+        </p>
+        <p>
+          <label for="appointment-name">Ваше имя</label>
+          <input  id="appointment-name" type="text" name="name" value="" placeholder="Борода">
+        </p>
+        <p>
+          <label for="appointment-phone">Телефон</label>
+          <input id="appointment-phone" type="tel" name="phone" value="" placeholder="+7 123 456-78-90">
+        </p>
+        <button type="submit">Отправить</button>
+        </form>
       </section>
     </main>
     <footer>
